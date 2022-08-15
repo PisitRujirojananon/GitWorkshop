@@ -32,6 +32,20 @@ git log --format=oneline
 git log --oneline --graph --decorate
 ```
 
+## Git Show
+```
+git show id(commit id)
+git show HEAD
+git show HEAD^
+git show HEAD^^^^
+git show HEAD~4
+```
+
+## Git blame
+```
+git blame Readme.md
+```
+
 ## Git ls-tree
 ```
 git ls-tree HEAD
@@ -61,4 +75,7 @@ git rm --cached <filename>
 ```
 git diff (compare between workspace and index)
 git diff --cached (compare between index and local repository)
+git diff id..id2
+git diff HEAD..HEAD~3 (Move Back)
+git diff HEAD~5..HEAD (Move Forward)
 ```
