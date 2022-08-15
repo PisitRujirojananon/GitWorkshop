@@ -1,16 +1,16 @@
-# Git Command 2
+# Git Command
 
 ## Configuration Level
-### Local
+### Local configuration
 ```
 git config --local user.name "PisitRujirojananon"
 git config --local user.email "pisit.rujirojananon@allianz.com"
 ```
-### Global
+### Global configuration
 ```
 git config --global core.editor "code --new-window --wait"
 ```
-### System
+### System configuration
 ```
 git config --system -e
 ```
