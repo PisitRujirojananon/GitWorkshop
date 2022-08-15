@@ -1,5 +1,4 @@
 # Git Command
-
 ## Configuration Level
 ### Local configuration
 ```
