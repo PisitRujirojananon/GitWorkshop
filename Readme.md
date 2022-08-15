@@ -56,3 +56,9 @@ git remote -v
 git rm <filename>
 git rm --cached <filename>
 ```
+
+## Git Diff(git diff)
+```
+git diff (compare between workspace and index)
+git diff --cached (compare between index and local repository)
+```
